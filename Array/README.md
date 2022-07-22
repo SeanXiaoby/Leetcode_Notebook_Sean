@@ -12,3 +12,23 @@ Array is a combination where an amount of data of the same type is stored **cont
 
 ### - 2D array:
 - 2D array is also **continously** stored in memory.(For C++)
+
+---
+
+## Problems:
+
+### Binary search:
+#### #704: [Binary search(easy)](https://leetcode.com/problems/binary-search/):
+- Runtime: O(logn)
+- Constrains: 
+  - The given array must be of **ascending order**.
+  - There is **no duplicate** item in the array.
+- while loop: left **<=** right
+- Little trick: To prevent variable **overflow**, we can use:
+```
+mid = left + (right - left) /2
+```
+instead of: 
+```
+mid = (left + right) /2
+```
