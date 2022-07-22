@@ -32,3 +32,13 @@ instead of:
 ```
 mid = (left + right) /2
 ```
+
+#### #35: [Find insert position(easy)](https://leetcode.com/problems/search-insert-position/):
+- Runtime: O(logn) + ascending order + no duplicate ==> **Binary search**
+- Add a comparing at the stopping point: when left >= right, compare the target with the left value.
+- Mildly modify the [#704](https://leetcode.com/problems/binary-search/):
+```cpp
+if(target<nums[mid]){
+  right = mid;  //Instead of "right = mid -1", to prevent right gets less than left
+}
+```
