@@ -1,4 +1,10 @@
 # Array
+### Index:
+- [Intro](https://github.com/SeanXiaoby/Leetcode_Notebook_Sean/edit/main/Array/README.md#definition)
+- [Binary Search](https://github.com/SeanXiaoby/Leetcode_Notebook_Sean/edit/main/Array/README.md#binary-search)
+- [Two Pointers](https://github.com/SeanXiaoby/Leetcode_Notebook_Sean/edit/main/Array/README.md#two-pointers)
+
+----
 
 ### Definition:
 Array is a combination where an amount of data of the same type is stored **continuously** in the memory space.
@@ -72,6 +78,10 @@ if(target<nums[mid]){
 
 ----
 ### Todo lists:
-- #278: [First bad version](https://leetcode.com/problems/first-bad-version/) 
+- ~~#278: [First bad version](https://leetcode.com/problems/first-bad-version/)~~ 
 - #367: [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)
 - [LeetCode算法题整理（二分法篇）Binary Search](https://darktiantian.github.io/LeetCode%E7%AE%97%E6%B3%95%E9%A2%98%E6%95%B4%E7%90%86%EF%BC%88%E4%BA%8C%E5%88%86%E6%B3%95%E7%AF%87%EF%BC%89Binary-Search/)
+
+----
+
+### Two Pointers:
