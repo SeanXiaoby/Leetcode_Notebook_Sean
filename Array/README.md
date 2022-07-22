@@ -20,8 +20,8 @@ Array is a combination where an amount of data of the same type is stored **cont
 ### Binary search:
 #### #704: [Binary search(easy)](https://leetcode.com/problems/binary-search/):
 - Runtime: O(logn)
-- Constrains: 
-  - The given array must be of **ascending order**.
+- Constrains/Key words: 
+  - The given array must be **sorted**.
   - There is **no duplicate** item in the array.
 - while loop: left **<=** right
 - Little trick: To prevent variable **overflow**, we can use:
