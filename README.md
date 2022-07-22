@@ -10,4 +10,4 @@ Updating my notes here when practicing Leetcode problems.
 
 ----
 ### Index:
-1.[Array](https://github.com/SeanXiaoby/Leetcode_Notebook_Sean/edit/main)
+1.[Array](https://github.com/SeanXiaoby/Leetcode_Notebook_Sean/tree/main/Array)
