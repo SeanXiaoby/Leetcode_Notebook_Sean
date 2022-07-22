@@ -59,3 +59,13 @@ if(target<nums[mid]){
     - Else: search right part: left = mid +1;
   - If nums[mid] != target: follow the normal binary search steps
 - Video reference: [two binary search](https://www.bilibili.com/video/BV1wy4y1k76F?share_source=copy_web&vd_source=1dccb53c95e247fd924dbfa0318596b5)
+
+#### #69: [Sqrt(x) (easy)](https://leetcode.com/problems/sqrtx/)
+- Search in a natural integer array ==> **Binary Search**
+- Initialized searching range: 1 ~ x
+- Set stopping condition:
+  - If x == sq(mid): return mid
+  - If mid hit the border: return mid
+  - If x is right between the squares of two integer: return the smaller one
+  - Else: follow the normal binary search steps
+- **Warning::** When squaring mid, the result might overflow. We can tranfer the variable type to double to solve this problem.
