@@ -69,3 +69,9 @@ if(target<nums[mid]){
   - If x is right between the squares of two integer: return the smaller one
   - Else: follow the normal binary search steps
 - **Warning::** When squaring mid, the result might overflow. We can tranfer the variable type to double to solve this problem.
+
+----
+### Todo lists:
+- #278: [First bad version](https://leetcode.com/problems/first-bad-version/) 
+- #367: [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)
+- [LeetCode算法题整理（二分法篇）Binary Search](https://darktiantian.github.io/LeetCode%E7%AE%97%E6%B3%95%E9%A2%98%E6%95%B4%E7%90%86%EF%BC%88%E4%BA%8C%E5%88%86%E6%B3%95%E7%AF%87%EF%BC%89Binary-Search/)
