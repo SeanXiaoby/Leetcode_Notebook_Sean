@@ -12,24 +12,24 @@ int mySqrt(int x) {
     int mid = left + (right - left) /2;
 
     while(left <= right){
-        if(mid*mid == x){
+        if((double)mid*mid == x){
             return mid;
         }else if(mid == 1 || mid == x){
             return mid;
-        }else if(mid*mid < x && x < (mid+1)*(mid+1)){
+        }else if((double)mid*mid < x && x < (double)(mid+1)*(mid+1)){
             return mid;
-        }else if((mid-1)*(mid-1) < x && x < mid*mid){
+        }else if((double)(mid-1)*(mid-1) < x && x <(double) mid*mid){
             return (mid -1);
-        }else if(x < mid*mid){
+        }else if(x < (double)mid*mid){
             right = mid -1;
-        }else if(x > mid*mid){
+        }else if(x > (double)mid*mid){
             left = mid +1;
         }
 
         mid = left + (right - left) /2;
     }
 
-    return 0;
+    return 0; 
 }
 
 
