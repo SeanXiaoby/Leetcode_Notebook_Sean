@@ -1,8 +1,8 @@
 # Array
 ### Index:
-- [Intro](https://github.com/SeanXiaoby/Leetcode_Notebook_Sean/edit/main/Array/README.md#definition)
-- [Binary Search](https://github.com/SeanXiaoby/Leetcode_Notebook_Sean/edit/main/Array/README.md#binary-search)
-- [Two Pointers](https://github.com/SeanXiaoby/Leetcode_Notebook_Sean/edit/main/Array/README.md#two-pointers)
+- [Intro](https://github.com/SeanXiaoby/Leetcode_Notebook_Sean/tree/main/Array#definition)
+- [Binary Search](https://github.com/SeanXiaoby/Leetcode_Notebook_Sean/tree/main/Array#binary-search)
+- [Two Pointers](https://github.com/SeanXiaoby/Leetcode_Notebook_Sean/tree/main/Array#two-pointers)
 
 ----
 
