@@ -85,3 +85,19 @@ if(target<nums[mid]){
 ----
 
 ### Two Pointers:
+
+- Usually used in erasing elements
+- Only iterate the whole array once: runtime complexity O(n)
+- Only need memory for the original array: space complexity O(1)
+- Usage:
+  - **Fast pointer: Find the next matched element**
+  - **Slow pointer: save the element to slow pointer index**
+  
+#### #27: [Remove Element (easy)](https://leetcode.com/problems/remove-element/):
+- If using std::vector::erase: Runtime complexity: O(n<sup>2</sup>)
+- Two pointers solution:
+  - Fast pointer: Find the matched element (to erase)
+  - Slow pointer: If the fast pointer does **not** point to a matched element, save the element to the slow pointer position.
+- When fast pointer reach the end of the array, the loop ends. The slow pointer's val should be the length of un-erased elements.
+
+
