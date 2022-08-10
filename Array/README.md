@@ -3,6 +3,7 @@
 - [Intro](https://github.com/SeanXiaoby/Leetcode_Notebook_Sean/tree/main/Array#definition)
 - [Binary Search](https://github.com/SeanXiaoby/Leetcode_Notebook_Sean/tree/main/Array#binary-search)
 - [Two Pointers](https://github.com/SeanXiaoby/Leetcode_Notebook_Sean/tree/main/Array#two-pointers)
+- [Sliding Window]()
 
 ----
 
@@ -105,4 +106,22 @@ if(target<nums[mid]){
 - Stop when index1 == index2
 - Compare nums[index1] and nums[index2], push the larger one to res vector.
 - Reverse res vector
+
+----
+
+### Sliding Window
+#### When to use sliding window??
+- **Sorted** input array
+- Find **continous** sub-array
+
+#### #209 [Minimize size subarray sum (medium)](https://leetcode.com/problems/minimum-size-subarray-sum/)
+- Brute-force: O(n<sup>2</sup>)  ----> Sliding window: O(n)
+- Outer loop: index of window ending
+- Insider loop: Judge if window match requirements (If sum of items inside the window >= target)
+  - If true: Make window smaller: left-index ++
+  - If false: Enter next loop
+- [Video tutorial](https://www.bilibili.com/video/BV1tZ4y1q7XE?share_source=copy_web&vd_source=1dccb53c95e247fd924dbfa0318596b5)
+
+
+
 
