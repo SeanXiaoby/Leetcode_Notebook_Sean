@@ -3,7 +3,7 @@
 - [Intro](https://github.com/SeanXiaoby/Leetcode_Notebook_Sean/tree/main/Array#definition)
 - [Binary Search](https://github.com/SeanXiaoby/Leetcode_Notebook_Sean/tree/main/Array#binary-search)
 - [Two Pointers](https://github.com/SeanXiaoby/Leetcode_Notebook_Sean/tree/main/Array#two-pointers)
-- [Sliding Window]()
+- [Sliding Window](https://github.com/SeanXiaoby/Leetcode_Notebook_Sean/tree/main/Array#sliding-window)
 
 ----
 
@@ -122,6 +122,15 @@ if(target<nums[mid]){
   - If false: Enter next loop
 - [Video tutorial](https://www.bilibili.com/video/BV1tZ4y1q7XE?share_source=copy_web&vd_source=1dccb53c95e247fd924dbfa0318596b5)
 
-
+#### #904 [Fruit Into Baskets (Medium)](https://leetcode.com/problems/fruit-into-baskets/)
+- Outer looper: window right index: From 0 -> last item
+- Inside: 
+  - If window items only have **less than or equal to** two types: window right index ++
+  - If window items have three types or more: window left index ++, until have only two types or less.
+  - **Inside we use a while loop to move left index!**
+- How to count fruit types inside window?
+  - We can use a map: count how many nums of each fruit is inside the window
+  - When moving left/right index, change the counter map
+  - If some type is changed to 0, erase from map.
 
 
