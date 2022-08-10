@@ -100,4 +100,9 @@ if(target<nums[mid]){
   - Slow pointer: If the fast pointer does **not** point to a matched element, save the element to the slow pointer position.
 - When fast pointer reach the end of the array, the loop ends. The slow pointer's val should be the length of un-erased elements.
 
+#### #977: [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/):
+- Use two pointers from both the head and the tail.
+- Stop when index1 == index2
+- Compare nums[index1] and nums[index2], push the larger one to res vector.
+- Reverse res vector
 
