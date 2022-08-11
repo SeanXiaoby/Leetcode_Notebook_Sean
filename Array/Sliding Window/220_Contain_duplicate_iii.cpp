@@ -16,17 +16,9 @@ bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {
         }
         
         if(!counter.empty()){
-            // auto iter = counter.begin();
-            // int start = *iter;
-            // iter = counter.end();
-            // iter--;
-            // int end = *iter;
-            // if(nums[j]>= start-t && nums[j]<= end +t){
-            //     return true;
-            // }
             for(auto iter = counter.begin(); iter!= counter.end(); iter++){
-                // double = 
-                if(abs(nums[j] - *iter)<= t) return true;
+                double left = abs
+                if(abs((double)nums[j] - (double)*iter)<= (double)t) return true;
             }
         }
         counter.insert(nums[j]);
