@@ -14,3 +14,4 @@ Updating my notes here when practicing Leetcode problems.
 1. [Array](https://github.com/SeanXiaoby/Leetcode_Notebook_Sean/tree/main/Array)
 2. [Linked list](https://github.com/SeanXiaoby/Leetcode_Notebook_Sean/tree/main/List#linked-list)
 3. [Hash Table](https://github.com/SeanXiaoby/Leetcode_Notebook_Sean/tree/main/Hash%20Table)
+4. [String](https://github.com/SeanXiaoby/Leetcode_Notebook_Sean/tree/main/String)
