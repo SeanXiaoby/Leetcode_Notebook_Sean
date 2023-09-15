@@ -57,10 +57,12 @@ int coinChange2(vector<int>& coins, int amount) {
 }
 
 int main(){
-    vector<int> coins = {1,2,5};
-    int amount = 11;
+    // vector<int> coins = {1,2,5};
+    // int amount = 11;
 
-    cout<<coinChange1(coins, amount)<<endl;
+    // cout<<coinChange1(coins, amount)<<endl;
 
+    int a  = 10, b = 200;
+    cout<<(a ^ b)+(a & b)*2<<endl;
     return 0;
 }
